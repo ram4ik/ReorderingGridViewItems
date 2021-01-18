@@ -11,6 +11,11 @@
 		9570675525B5B32400657E66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9570675425B5B32400657E66 /* ContentView.swift */; };
 		9570675725B5B32500657E66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9570675625B5B32500657E66 /* Assets.xcassets */; };
 		9570675A25B5B32500657E66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9570675925B5B32500657E66 /* Preview Assets.xcassets */; };
+		9570676625B5B36B00657E66 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9570676525B5B36B00657E66 /* Page.swift */; };
+		9570676925B5B41B00657E66 /* PageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9570676825B5B41B00657E66 /* PageViewModel.swift */; };
+		9570676C25B5B45F00657E66 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9570676B25B5B45F00657E66 /* Home.swift */; };
+		9570676F25B5B9E600657E66 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9570676E25B5B9E600657E66 /* WebView.swift */; };
+		9570677225B5BC5D00657E66 /* DropViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9570677125B5BC5D00657E66 /* DropViewDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		9570675625B5B32500657E66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9570675925B5B32500657E66 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9570675B25B5B32500657E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9570676525B5B36B00657E66 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		9570676825B5B41B00657E66 /* PageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewModel.swift; sourceTree = "<group>"; };
+		9570676B25B5B45F00657E66 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		9570676E25B5B9E600657E66 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		9570677125B5BC5D00657E66 /* DropViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropViewDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,9 @@
 		9570675125B5B32400657E66 /* ReorderingGridViewItems */ = {
 			isa = PBXGroup;
 			children = (
+				9570676425B5B34300657E66 /* ViewModel */,
+				9570676325B5B33C00657E66 /* View */,
+				9570676225B5B33500657E66 /* Model */,
 				9570675225B5B32400657E66 /* ReorderingGridViewItemsApp.swift */,
 				9570675425B5B32400657E66 /* ContentView.swift */,
 				9570675625B5B32500657E66 /* Assets.xcassets */,
@@ -67,6 +80,32 @@
 				9570675925B5B32500657E66 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9570676225B5B33500657E66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9570676525B5B36B00657E66 /* Page.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9570676325B5B33C00657E66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9570676B25B5B45F00657E66 /* Home.swift */,
+				9570676E25B5B9E600657E66 /* WebView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9570676425B5B34300657E66 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9570676825B5B41B00657E66 /* PageViewModel.swift */,
+				9570677125B5BC5D00657E66 /* DropViewDelegate.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +179,11 @@
 			files = (
 				9570675525B5B32400657E66 /* ContentView.swift in Sources */,
 				9570675325B5B32400657E66 /* ReorderingGridViewItemsApp.swift in Sources */,
+				9570677225B5BC5D00657E66 /* DropViewDelegate.swift in Sources */,
+				9570676C25B5B45F00657E66 /* Home.swift in Sources */,
+				9570676F25B5B9E600657E66 /* WebView.swift in Sources */,
+				9570676625B5B36B00657E66 /* Page.swift in Sources */,
+				9570676925B5B41B00657E66 /* PageViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
